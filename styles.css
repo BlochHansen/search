@@ -74,6 +74,12 @@ body {
     padding-top: 18px;
 }
 
+a:link {
+    text-decoration: none;
+    color: black;
+  }
+
+
 /* HERFRA SKAL FJERNES */
 
 .jfk-button {
