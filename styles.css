@@ -2,13 +2,14 @@ body {
     font-size: 14px;
     font-family: arial,sans-serif;
     color: #202124;
-    width: 1000px;
+    width: 1500px;
     min-width: 500px;
 }
 
 .grid {
     display: grid;
     padding: 50px;
+    padding-top: 200px;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     grid-template-columns: 250px 300px auto;
@@ -25,25 +26,31 @@ body {
     text-align: right;
 }
 
-
-
-/* HERFRA SKAL FJERNES */
-
+.adv-button {
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    margin-right: 6px;
+    height: 30px;
+    width: 120px;
+}
 
 .top {
     text-align: right;
-    width: 1000px;
+    width: 1500px;
 }
 
 .hoved {
-    width: 1000px;
+    width: 1500px;
     padding-top: 250px;
     text-align: center;
+    /* background-color: blue; */ 
+
 }
 
-.RNN {
+.inp-search {
     display: flex;
-    padding: 5px 8px 0 14px;
+    padding: 5px 8px 0px 25px;
     height: 44px;
     background: #fff;
     border: 1px solid #dfe1e5;
@@ -57,17 +64,17 @@ body {
     width: 638px;
     /* width: auto; */
     /* max-width: 584px; */
+    /* background-color: grey; */ 
+    font-size: 15px;  /* Egen ide */
 }
 
-.lJ9FBc {
+.sub-search {
     height: 70px;
     text-align: center;
+    padding-top: 18px;
 }
 
-.FPdoLc {
-    padding-top: 18px;
-    text-align: center;
-}
+/* HERFRA SKAL FJERNES */
 
 .jfk-button {
     -webkit-border-radius: 2px;
